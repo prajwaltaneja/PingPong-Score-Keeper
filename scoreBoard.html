@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="skeeper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <div class="columns">
+    <div class="column is-6 is-offset-3">
+        <div class="card" id="werrrr">
+            <div class="card-content">
+              <div class="content">
+                <div  id="whole">
+                    <img id="img"   src="https://www.india.com/wp-content/uploads/2020/05/table-tennis.jpg">
+                    <h2>Ping Pong Score Keeper</h2>
+                    <label for="Tmatch">Select the number of tournament</label>
+                    <select name="matches" id="Tmatch">
+                        <option value="1" selected="selected">1</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="15">15</option>
+                    </select>
+                    <br>
+                    <label for="outOff">Select game score</label>
+                    <select name="score" id="outOff">
+                        <option value="4" selected="selected" >4</option>
+                        <option value="10" >10</option>
+                        <option value="15">15</option>
+                    </select>
+                    <div id="tag">Total Score</div>
+                    <h2><span id="pr1">0</span> to <span id="pr2">0</span></h2>
+                    <h3 id="wins"> </h3>
+                    <h2 id="fwin"> </h2>
+                    <span id="buttons">
+                    <button class="bt" id="bt1">+1 Player One</button>
+                    <button class="bt" id="bt2">+1 Player Two</button>
+                    <button class="bt" id="bt3">Reset</button>
+                    </span>
+                    </div>
+              </div>
+            </div>
+          </div>
+    </div>
+      </div>
+    
+        <script src="skeeping.js"></script>
+</body>
+</html>
+
